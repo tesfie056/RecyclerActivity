@@ -19,7 +19,7 @@ class NumberDisplayAdapter(_number: Array<Int>) : RecyclerView.Adapter<NumberDis
           TextView(
               parent.context
           ).apply {
-              layoutParams = 
+              layoutParams
           }
       )
     }
@@ -29,7 +29,7 @@ class NumberDisplayAdapter(_number: Array<Int>) : RecyclerView.Adapter<NumberDis
     }
 
     override fun onBindViewHolder(holder: NumberViewHolder, position: Int) {
-
+holder.numberView
     }
 
     //Step 3b: Complete function definitions for adapter
